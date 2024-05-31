@@ -34,6 +34,7 @@ Do not import any Python libraries. Assume that the start times are valid times.
 Note: open the browser console with F12 to see a more verbose output of the tests.
 
 Tests
+
 Waiting:Calling add_time('3:30 PM', '2:12') should return '5:42 PM'.
 Waiting:Calling add_time('11:55 AM', '3:12') should return '3:07 PM'.
 Waiting:Expected time to end with '(next day)' when it is the next day.
