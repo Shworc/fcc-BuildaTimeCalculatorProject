@@ -36,14 +36,26 @@ Note: open the browser console with F12 to see a more verbose output of the test
 Tests
 
 Waiting:Calling add_time('3:30 PM', '2:12') should return '5:42 PM'.
+
 Waiting:Calling add_time('11:55 AM', '3:12') should return '3:07 PM'.
+
 Waiting:Expected time to end with '(next day)' when it is the next day.
+
 Waiting:Expected period to change from AM to PM at 12:00.
+
 Waiting:Calling add_time('2:59 AM', '24:00') should return '2:59 AM (next day)'.
+
 Waiting:Calling add_time('11:59 PM', '24:05') should return '12:04 AM (2 days later)'.
+
 Waiting:Calling add_time('8:16 PM', '466:02') should return '6:18 AM (20 days later)'.
+
 Waiting:Expected adding 0:00 to return the initial time.
+
 Waiting:Calling add_time('3:30 PM', '2:12', 'Monday')should return '5:42 PM, Monday'.
+
 Waiting:Calling add_time('2:59 AM', '24:00', 'saturDay') should return '2:59 AM, Sunday (next day)'.
+
 Waiting:Calling add_time('11:59 PM', '24:05', 'Wednesday') should return '12:04 AM, Friday (2 days later)'.
+
 Waiting:Calling add_time('8:16 PM', '466:02', 'tuesday') should return '6:18 AM, Monday (20 days later)'.
+
